@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azizbek Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;900&family=Exo+2:wght@300;400;500;600;700&family=Audiowide&display=swap"
+        rel="stylesheet">
+    <link href="tooplate-neural-style.css" rel="stylesheet">
+
+    <!--
+
+Tooplate 2139 Neural Portfolio
+
+https://www.tooplate.com/view/2139-neural-portfolio
+
+Free HTML CSS Template
+
+-->
+
+</head>
+
+<body>
+    <canvas id="neural-bg"></canvas>
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo-container">
+                <svg class="logo-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Neural Network Logo -->
+                    <circle cx="50" cy="20" r="8" fill="none" stroke="#00ffff" stroke-width="2" />
+                    <circle cx="25" cy="50" r="8" fill="none" stroke="#ff00ff" stroke-width="2" />
+                    <circle cx="75" cy="50" r="8" fill="none" stroke="#ff00ff" stroke-width="2" />
+                    <circle cx="50" cy="80" r="8" fill="none" stroke="#ffff00" stroke-width="2" />
+
+                    <!-- Connections -->
+                    <line x1="50" y1="28" x2="25" y2="42" stroke="#00ffff" stroke-width="1" opacity="0.6" />
+                    <line x1="50" y1="28" x2="75" y2="42" stroke="#00ffff" stroke-width="1" opacity="0.6" />
+                    <line x1="25" y1="58" x2="50" y2="72" stroke="#ff00ff" stroke-width="1" opacity="0.6" />
+                    <line x1="75" y1="58" x2="50" y2="72" stroke="#ff00ff" stroke-width="1" opacity="0.6" />
+
+                    <!-- Center node -->
+                    <circle cx="50" cy="50" r="5" fill="#00ffff" />
+                    <line x1="50" y1="28" x2="50" y2="45" stroke="#00ffff" stroke-width="1" opacity="0.6" />
+                    <line x1="50" y1="55" x2="50" y2="72" stroke="#ffff00" stroke-width="1" opacity="0.6" />
+                    <line x1="33" y1="50" x2="45" y2="50" stroke="#ff00ff" stroke-width="1" opacity="0.6" />
+                    <line x1="55" y1="50" x2="67" y2="50" stroke="#ff00ff" stroke-width="1" opacity="0.6" />
+                </svg>
+                <span class="logo-text">Azizbek</span>
+            </a>
+
+            <div class="mobile-menu-toggle" id="mobile-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#home">Asosiy</a></li>
+                    <li><a href="#about">Biz Haqimizda</a></li>
+                    <li><a href="#projects">Loyihalar</a></li>
+                    <li><a href="#skills">Mahorat</a></li>
+                    <li><a href="#contact">Aloqa</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="glitch" data-text="NEURAL NETWORK">Azizbek Mamanov</h1>
+            <p class="subtitle">Veb Dasturchi & Raqamli Arxitektor</p>
+        </div>
+        <a href="#about" class="scroll-btn">
+            <div class="scroll-btn-inner">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M7 13l5 5 5-5M7 6l5 5 5-5" />
+                </svg>
+            </div>
+        </a>
+    </section>
+
+    <section id="about" class="fade-in">
+        <h2 class="section-title">Biz Haqimizda</h2>
+        <div class="about-container">
+            <div class="about-image">
+                <div class="profile-img-wrapper">
+                    <div class="profile-img">
+                        <!-- <span>AI</span> -->
+                        <img src="mee.jpg" alt="mee" style="width: 300px; height: 300px;" />
+                    </div>
+                </div>
+            </div>
+            <div class="about-content">
+                <h3>Innovatsion web tajribalar</h3>
+                <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 20px;">
+                    Men san’at va texnologiyani uyg‘unlashtirib,
+                    zamonaviy veb tajribalarni yaratishga ixtisoslashgan
+                    web–dasturchiman. Mening ishlarim neyron tarmoqlardan
+                    ilhomlangan interfeyslarni ishlab chiqishga qaratilgan
+                    bo‘lib, ular web–dizayn chegaralarini kengaytiradi va
+                    yangi imkoniyatlar eshigini ochadi.
+                </p>
+                <p style="font-size: 1.1rem; line-height: 1.8; color: var(--text-secondary);">
+                    Frontend yo‘nalishida ko‘p yillik tajribaga ega bo‘lib,
+                    murakkab g‘oyalarni sodda, tushunarli va ko‘zni
+                    qamashtiruvchi veb-ilovalarga aylantirish san’atini
+                    mukammal o‘zlashtirganman. Mening tajribam responsiv
+                    dizayndan tortib, murakkab animatsiyalar va WebGL
+                    texnologiyalarigacha keng qamrovli.
+                </p>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">20+</div>
+                        <div class="stat-label">Loyiha</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">1+</div>
+                        <div class="stat-label">Yillik tajriba</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">12+</div>
+                        <div class="stat-label">Mijozlar</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="fade-in">
+        <h2 class="section-title">Loyihalar</h2>
+        <div class="projects-grid">
+            <div class="glass-card project-card">
+                <h3 style="color: var(--primary);">Sun’iy intellekt paneli</h3>
+                <p style="color: var(--text-secondary);">Real vaqtli tahlillar: neyron tarmoqlar orqali vizualizatsiya
+                    va bashoratli modellar</p>
+            </div>
+            <div class="glass-card project-card">
+                <h3 style="color: var(--secondary);">Kvant interfeysi</h3>
+                <p style="color: var(--text-secondary);">Kvant texnologiyasi asosida yaratilgan innovatsion interfeys
+                    tizimi</p>
+            </div>
+            <div class="glass-card project-card">
+                <h3 style="color: var(--accent);">Kiber portal</h3>
+                <p style="color: var(--text-secondary);">Ilg‘or WebGL va Three.js effektlari yordamida to‘liq sho‘ng‘ish
+                    imkonini beruvchi veb tajriba</p>
+            </div>
+            <div class="glass-card project-card">
+                <h3 style="color: var(--primary);">Ma’lumot oqimi</h3>
+                <p style="color: var(--text-secondary);">Jonli oqim va real vaqt tahliliga ega ma’lumotlar
+                    vizuallashtirish tizimi</p>
+            </div>
+            <div class="glass-card project-card">
+                <h3 style="color: var(--secondary);">Neon tarmoq</h3>
+                <p style="color: var(--text-secondary);">Yorqin komponentlar va animatsiyalar bilan bezatilgan kiberpank
+                    uslubidagi dizayn tizimi</p>
+            </div>
+            <div class="glass-card project-card">
+                <h3 style="color: var(--accent);">Matritsa ko‘rinishi</h3>
+                <p style="color: var(--text-secondary);">3D formatda ma’lumotlarni o‘rganish va virtual reallik
+                    imkoniyatlari bilan boyitilgan platforma</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="fade-in">
+        <h2 class="section-title">Mahoratlar</h2>
+        <div class="skills-container">
+            <div class="skill-node">
+                <span>HTML5</span>
+            </div>
+            <div class="skill-node">
+                <span>CSS3</span>
+            </div>
+            <div class="skill-node">
+                <span>JavaScript</span>
+            </div>
+            <div class="skill-node">
+                <span>React</span>
+            </div>
+            <div class="skill-node">
+                <span>WebGL</span>
+            </div>
+            <div class="skill-node">
+                <span>Three.js</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="fade-in">
+        <h2 class="section-title">Aloqa</h2>
+        <form id="contactForm" class="contact-form glass-card" action="/send-message" method="POST">
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Ismingizni kiriting" required>
+            </div>
+            <div class="form-group">
+                <input type="tel" name="phone" placeholder="Raqamingizni kiriting" required>
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" placeholder="Email kiriting" required>
+            </div>
+            <div class="form-group">
+                <textarea rows="5" name="message" placeholder="Xabar qoldiring" required></textarea>
+            </div>
+            <button type="submit" class="neural-btn">Xabarni Yuborish</button>
+        </form>
+
+        <script>
+            document.getElementById("contactForm").addEventListener("submit", async (e) => {
+                e.preventDefault();
+
+                const data = {
+                    name: e.target.name.value,
+                    phone: e.target.phone.value,
+                    email: e.target.email.value,
+                    message: e.target.message.value,
+                };
+
+                const res = await fetch("http://localhost:3000/send-message", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify(data),
+                });
+
+                const result = await res.json();
+                alert(result.message);
+            });
+        </script>
+
+
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Sayt menyusi</h3>
+                <ul>
+                    <li><a href="#home">Asosiy</a></li>
+                    <li><a href="#about">Biz Haqimizda</a></li>
+                    <li><a href="#projects">Loyihalar</a></li>
+                    <li><a href="#skills">Mahorat</a></li>
+                    <li><a href="#contact">Aloqa</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#">Web Dizayn</a></li>
+                    <li><a href="#">UI/UX Development</a></li>
+                    <li><a href="#">Frontend Development</a></li>
+                    <li><a href="#">Konsultatsiya</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Bog'lanish</h3>
+                <p style="color: var(--text-secondary); margin-bottom: 10px;">
+                    Keling, birgalikda ajoyib narsalarni yarataylik
+                </p>
+                <div class="social-links">
+                    <a href="https://github.com/azizbekoffice1" aria-label="GitHub">
+                        <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12" />
+                        </svg>
+                    </a>
+                    <a href="https://instagram.com/_azizbek_948_" aria-label="Instagram" target="_blank">
+                        <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4h-9zm4.5 3a5.5 5.5 0 1 1 0 11a5.5 5.5 0 0 1 0-11zm0 2a3.5 3.5 0 1 0 0 7a3.5 3.5 0 0 0 0-7zm5.75-.75a1.25 1.25 0 1 1-2.5 0a1.25 1.25 0 0 1 2.5 0z" />
+                        </svg>
+                    </a>
+
+                    <a href="https://t.me/azizbek_948" aria-label="Telegram" target="_blank">
+                        <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24C18.6274 
+        24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0ZM17.9442 8.31503L16.3872 
+        15.652C16.2712 16.163 15.9722 16.285 15.5402 16.045L12.6602 13.914L11.2782 
+        15.248C11.1502 15.372 11.0422 15.477 10.7902 15.477L10.9942 12.649L15.9932 
+        8.88303C16.2112 8.71703 15.9482 8.60303 15.6682 8.76903L9.05121 
+        12.612L6.32721 11.762C5.74121 11.577 5.72921 11.186 6.45321 10.946L17.1502 
+        7.47903C17.6422 7.31903 18.0652 7.60703 17.9442 8.31503Z" />
+                        </svg>
+                    </a>
+
+                </div>
+
+                
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Azizbek Portfolio. Barcha huquqlar himoyalangan.<a href="https://t.me/azizbek_948"
+                    target="_blank" rel="noopener">Created by Azizbek 🚀</a>
+
+        </div>
+    </footer>
+    <script src="tooplate-neural-scripts.js"></script>
+
+</body>
+
+</html>
