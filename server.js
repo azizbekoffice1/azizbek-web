@@ -10,12 +10,12 @@ const PORT = 3000;
 import dotenv from "dotenv";
 dotenv.config({ path: "api.env" });
 
-
-const token = process.env.TELEGRAM_TOKEN;
+const token = process.env.TOKEN;   // faqat shu qatorda o‘zgardi
 const chatId = process.env.CHAT_ID;
 
 console.log("TOKEN:", token);
 console.log("CHAT ID:", chatId);
+
 
 
 // Statik fayllar (index.html, css, js)s
@@ -47,3 +47,4 @@ app.post("/send-message", async (req, res) => {
 app.listen(PORT, () => {
     console.log(`✅ Server http://localhost:${PORT} da ishlayapti`);
 });
+
