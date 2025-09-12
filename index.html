@@ -221,7 +221,7 @@ Free HTML CSS Template
                     message: e.target.message.value,
                 };
 
-                const res = await fetch("http://localhost:3000/send-message", {
+                const res = await fetch("https://azizbek-web.onrender.com/send-message", {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
                     body: JSON.stringify(data),
@@ -304,5 +304,6 @@ Free HTML CSS Template
     <script src="tooplate-neural-scripts.js"></script>
 
 </body>
+
 
 </html>
