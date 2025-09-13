@@ -4,7 +4,7 @@ import fs from "fs";
 import fetch from "node-fetch";
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 // Telegram Bot token va chat_id
 import dotenv from "dotenv";
@@ -47,4 +47,5 @@ app.post("/send-message", async (req, res) => {
 app.listen(PORT, () => {
     console.log(`✅ Server http://localhost:${PORT} da ishlayapti`);
 });
+
 
